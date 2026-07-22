@@ -34,14 +34,14 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 5%;
+        padding-top: min(1%, 3%);
         text-align: center;
         font-size: 4.5vh;
         font-family: "Inter", sans-serif;
         font-weight: 390;
         border-bottom: 1vw solid whitesmoke;
         border-radius: 5rem 5rem 0 0;
-        height: 12%;
+        height: min(12.5%, 60vw);
 }
 
 #desc {
@@ -75,16 +75,15 @@ body {
 
 #generate-name {
         display: block;
-        margin-top: 6vh;
+        margin-top: min(2vh, 10vw);
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
-        font-size:3vh;
+        font-size: 3vh;
         font-family: "Inter", sans-serif;
         font-weight: 350;
         background-color: whitesmoke;
         border-radius: 2vw;
-        padding: 1vw;
         border: 0;
         box-shadow: 0 0 1vw lightgray;
         transition: all 0.2s ease-in-out;
@@ -98,7 +97,7 @@ body {
 }
 
 footer {
-        margin-top: 7vh;
+        margin-top: 10vw;
 }
 
 #copyright {
@@ -106,4 +105,4 @@ footer {
         text-align:center;
         font-weight: 200;
         font-size: 2vh;
-}
+       }
