@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@keyframes booting-up {
+       from {
+               transform: translateY(0);
+               opacity: 0%;
+       }
+       to {
+               transform: translateY(3vw);
+               opacity: 100%;
+       }
+}
+
+body {
+        background-color: whitesmoke;
+}
+
+.main-box {
+        animation-name: booting-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        background-color: white;
+        border-radius: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-top: 15vh;
+        box-shadow: 0px 0px 10vw lightgray;
+        width: 92%;
+        height: 60vh;
+}
+
+#title {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+        text-align: center;
+        font-size: 4.5vh;
+        font-family: "Inter", sans-serif;
+        font-weight: 390;
+        border-bottom: 1vw solid whitesmoke;
+        border-radius: 5rem 5rem 0 0;
+        height: 12%;
+}
+
+#desc {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2vh;
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+}
+
+#descriptor {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        font-size: 3.5vh;
+}
+
+.name {
+        display: block;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 350;
+        font-size: 3vh;
+        margin-top: -4vh;
+}
+
+#generate-name {
+        display: block;
+        margin-top: 6vh;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        font-size:3vh;
+        font-family: "Inter", sans-serif;
+        font-weight: 350;
+        background-color: whitesmoke;
+        border-radius: 2vw;
+        padding: 1vw;
+        border: 0;
+        box-shadow: 0 0 1vw lightgray;
+        transition: all 0.2s ease-in-out;
+        width: 80%;
+        height: 10%;
+}
+
+#generate-name:active {
+        translate: 0 1vw;
+        box-shadow: inset 0 0 1vw lightgray;
+}
+
+footer {
+        margin-top: 7vh;
+}
+
+#copyright {
+        display: block;
+        text-align:center;
+        font-weight: 200;
+        font-size: 2vh;
+}
