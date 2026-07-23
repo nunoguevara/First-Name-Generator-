@@ -102,6 +102,7 @@ footer {
 #copyright {
         display: block;
         text-align:center;
+        font-family: "Inter", sans-serif;
         font-weight: 200;
         font-size: 2vh;
 }
