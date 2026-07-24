@@ -47,7 +47,7 @@ body {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        font-size: 2vh;
+        font-size: clamp(1vh, 1.8vh, 5vw);
         font-family: "Inter", sans-serif;
         font-weight: 300;
 }
@@ -74,7 +74,7 @@ body {
 #generate-name {
         display: block;
         color: white;
-        margin-top: min(2vh, 10vw);
+        margin-top: min(3vh, 10vw);
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
@@ -92,7 +92,7 @@ body {
 
 #generate-name:active {
         translate: 0 1vw;
-        box-shadow: inset 0 0 1vw darkgreen;
+        box-shadow: inset 0 0 clamp(1rem, 1.5rem, 2rem) darkgreen;
 }
 
 footer {
