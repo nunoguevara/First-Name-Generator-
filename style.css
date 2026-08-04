@@ -26,14 +26,14 @@ body {
         animation-duration: 1s;
         animation-fill-mode: forwards;
         background-color: var(main-box);
-        border-radius: 50px;
+        border-radius: 32px;
         margin-right: auto;
         margin-left: auto;
         justify-content: center;
         align-self: center;
         margin-top: 15vh;
         box-shadow: 0px 0px 89px var(--glow);
-        width: min(95vw, 850px);
+        width: min(95%, 850px);
         height: 60vh;
 }
 
@@ -43,7 +43,7 @@ body {
         margin-right: auto;
         padding-top: min(2rem, 2vh);
         text-align: center;
-        font-size: min(4vh, 15rem);
+        font-size: min(3.5vh, 5rem);
         font-family: "Inter", sans-serif;
         font-weight: 390;
         border-bottom: 3px solid var(--background);
@@ -56,7 +56,7 @@ body {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        font-size: clamp(1vh, 1.8vh, 5vw);
+        font-size: clamp(7.5px, 1.8vh, 800px);
         font-family: "Inter", sans-serif;
         font-weight: 300;
 }
@@ -91,16 +91,16 @@ body {
         font-family: "Inter", sans-serif;
         font-weight: 350;
         background-color: limegreen;
-        border-radius: min(2vh, 2vw);
+        border-radius: clamp(8px, 0.75vw, 20px);
         border: 0;
         box-shadow: 0 0 1vw lightgreen;
-        transition: all 0.2s ease-in-out;
-        width: min(80%, 550px);
+        transition: all 0.1s ease-in-out;
+        width: min(80%, calc(100vw - 50%));
         height: 10%;
 }
 
 #generate-name:active {
-        translate: 0 5px;
+        translate: 0 7.5px;
         background-color: palegreen;
         color: whitesmoke;
 }
@@ -114,5 +114,5 @@ footer {
         text-align:center;
         font-family: "Inter", sans-serif;
         font-weight: 200;
-        font-size: 2vh;
+        font-size: max(2vh, 1vw);
 }
