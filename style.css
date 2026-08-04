@@ -26,14 +26,14 @@ body {
         animation-duration: 1s;
         animation-fill-mode: forwards;
         background-color: var(main-box);
-        border-radius: 5vw;
+        border-radius: 20px;
         margin-right: auto;
         margin-left: auto;
         justify-content: center;
         align-self: center;
         margin-top: 15vh;
         box-shadow: 0px 0px 89px var(--glow);
-        width: min(95vw, 550px);
+        width: min(95vw, 780px);
         height: 60vh;
 }
 
